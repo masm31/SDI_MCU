@@ -5,6 +5,7 @@
  void BUZZER_OFF();
  uint16_t BUZZER(GPIO_PinState PinState);
  uint16_t PUMP(GPIO_PinState PinState);
+ uint16_t PUMP_SPPED(uint8_t Speed);
  uint16_t DrainValve(GPIO_PinState PinState);
  uint16_t WaterValve(GPIO_PinState PinState);
  

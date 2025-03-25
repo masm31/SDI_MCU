@@ -12,4 +12,6 @@ void EEPROM_PageErase (uint16_t page);
 void EEPROM_Write_NUM (uint16_t page, uint16_t offset, float  fdata);
 float EEPROM_Read_NUM (uint16_t page, uint16_t offset);
 
+void float2Bytes(uint8_t * ftoa_bytes_temp,float float_variable);
+
 #endif /* INC_EEPROM_H_ */

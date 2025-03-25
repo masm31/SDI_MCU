@@ -9,7 +9,8 @@ extern I2C_HandleTypeDef hi2c2;
 // EEPROM ADDRESS (8bits)
 #define EEPROM_ADDR 0xA0
 
-// Define the Page Size and number of pages
+// Define the Page Size and number of pages AT24C02
+
 #define PAGE_SIZE 64     // in Bytes
 #define PAGE_NUM  512    // number of pages
 

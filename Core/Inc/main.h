@@ -50,6 +50,8 @@ extern "C" {
 
 /* USER CODE END EM */
 
+void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
+
 /* Exported functions prototypes ---------------------------------------------*/
 void Error_Handler(void);
 
@@ -95,8 +97,6 @@ void Error_Handler(void);
 #define Key2_EXTI_IRQn EXTI15_10_IRQn
 #define DrainVave_Pin GPIO_PIN_15
 #define DrainVave_GPIO_Port GPIOB
-#define Pump_Pin GPIO_PIN_15
-#define Pump_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

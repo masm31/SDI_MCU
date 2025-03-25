@@ -17,6 +17,8 @@
 "mcu\stm32f1xx_hal_flash_ex.o"
 "mcu\stm32f1xx_hal_exti.o"
 "mcu\stm32f1xx_hal_i2c.o"
+"mcu\stm32f1xx_hal_rtc.o"
+"mcu\stm32f1xx_hal_rtc_ex.o"
 "mcu\stm32f1xx_hal_spi.o"
 "mcu\stm32f1xx_hal_tim.o"
 "mcu\stm32f1xx_hal_tim_ex.o"
